@@ -5,7 +5,13 @@ public class Person {
 
 	 public Person(){
 	 }
-
+/***
+ * creating person's name, address, phone number, and email address
+ * @param name
+ * @param address
+ * @param phone
+ * @param email
+ */
 	 public Person(String name, String address, String phone, String email){
 	 this.name = name;
 	 this.address = address;

@@ -24,8 +24,16 @@ public class RunProgram {
 			 System.out.println(jill.toString() + "\n");
 	//		 System.out.println(jack.toString() + "\n");
 			 
+			 /**
+			  * Displayed how many students have been created
+			  */
+			 
 			 
 			 System.out.println("number of students= " + Student.numStudent);
+			 
+			 /**
+			  * created a new student 
+			  */
 			 
 			 jill.finalizeS();
 			 

@@ -4,13 +4,29 @@ package Midterm;
 		 private String office,salary;
 		 private MyDate DATE_HIRED;
 
+		 /**
+		  * Create an Employee
+		  */
 		 public Employee(){
 		 }
 
+		 /**
+		  * An employee has an office, salary, and date hired
+		  * @param name 
+		  * @param address
+		  * @param phone
+		  * @param email
+		  */
 		 public Employee(String name, String address, String phone, String email){
 			 super(name,address,phone,email);
 		 }
 
+		 /**
+		  * 
+		  * @param office 
+		  * @param salary
+		  * @param DATE_HIRED
+		  */
 		 public Employee(String office, String salary, MyDate DATE_HIRED){
 		 this.office = office;
 		 this.salary = salary;

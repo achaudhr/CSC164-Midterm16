@@ -4,6 +4,14 @@ package Midterm;
 		 
 		private final String CLASS_STATUS;
 		static int numStudent;
+		/**
+		 * creating students statuses 
+		 * @param name
+		 * @param address
+		 * @param phone
+		 * @param email
+		 * @param CLASS_STATUS
+		 */
 		
 		 public Student(String name, String address, String phone, String email,String CLASS_STATUS){
 			
@@ -27,7 +35,11 @@ package Midterm;
 		 	return CLASS_STATUS;
 		 
 		 }
-		 
+		/***  Destroying first students/
+		 * 
+		 * @return
+		 */
+		 	
 		 public Student finalizeS()
 		 {
 			 numStudent--;
